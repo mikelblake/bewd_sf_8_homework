@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @movie.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @movie.description %>
+</p>
+
+<p>
+  <strong>Year Released:</strong>
+  <%= @movie.year_released %>
+</p>
+<h3><%= link_to 'Back to all movies', movies_path %></h3>
+<h3><%= link_to 'Add a movie', new_movie_path %></h3>
